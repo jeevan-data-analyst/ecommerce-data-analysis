@@ -1,16 +1,7 @@
 create database product_analysis;
 use product_analysis;
-select * from redpasta_new limit 10 ;
 
-SELECT`Map Status`, COUNT(*) 
-FROM redpasta_new
-GROUP BY `Map Status`;
 
-describe redpasta_new;
-
-SELECT `Map Status`, COUNT(*) 
-FROM redpasta_new
-GROUP BY `Map Status`;
 # All Products
 
 SELECT COUNT(*) as total_products FROM redpasta_new;
